@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# MLX Models and Data
+models/*/
+sensitivities/
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.pt
+*.model
+*.weights
+*.onnx
+
+# Model artifacts
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+vocab.txt
+merges.txt
+added_tokens.json
+
+# Temporary model downloads
+tmp/
+temp/
+cache/
+.cache/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hugging Face
+.huggingface/
+hf_token.txt
+
+# Large files (GitHub file size limit)
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Quantization outputs
+*_awq_*
+*_dwq_*
+*_dynamic_*
+*_quantized_*
+
+# Testing outputs
+test_outputs/
+benchmarks/
+performance_logs/
+
+# MLX specific
+*.mlx
+mlx_cache/
+.jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
