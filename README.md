@@ -7,7 +7,6 @@ A comprehensive collection of Jupyter notebooks for converting and quantizing la
 - **Universal Model Conversion**: Convert any Hugging Face model to MLX format
 - **Multiple Quantization Methods**: Support for AWQ, DWQ, and Dynamic Quantization
 - **Apple Silicon Optimized**: Built specifically for M1/M2/M3/M4 devices
-- **DeepSeek-R1 Support**: Specialized conversion for DeepSeek-R1 AWQ models
 - **Automated Workflows**: Complete pipeline from download to deployment
 - **Performance Testing**: Built-in benchmarking and validation tools
 
@@ -21,8 +20,8 @@ A comprehensive collection of Jupyter notebooks for converting and quantizing la
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/MLX-Quant.git
-cd MLX-Quant
+git clone https://github.com/cs2764/mlx-quantization.git
+cd mlx-quantization
 ```
 
 2. Install dependencies:
@@ -42,7 +41,6 @@ jupyter lab
 | Notebook | Description | Use Case |
 |----------|-------------|----------|
 | `universal_mlx_converter.ipynb` | Universal converter for any HF model | General model conversion |
-| `deepseek_r1_mlx_conversion.ipynb` | DeepSeek-R1 AWQ to MLX converter | DeepSeek-R1 specific conversion |
 | `awq_quantization.ipynb` | Activation-aware Weight Quantization | High-quality 4-bit quantization |
 | `dwq_quantization.ipynb` | Distilled Weight Quantization | Fast quantization with good quality |
 | `dynamic_quantization.ipynb` | Dynamic mixed-precision quantization | Optimal size/quality balance |
@@ -71,7 +69,7 @@ Each notebook follows this standardized pattern:
 ## 📁 Directory Structure
 
 ```
-MLX-Quant/
+mlx-quantization/
 ├── models/                          # Model storage
 │   ├── <model_name>/               # Original models
 │   └── <model_name>_<method>_<bits>/ # Quantized outputs
