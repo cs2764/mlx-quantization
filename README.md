@@ -155,3 +155,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Version**: 1.0.0  
 **Last Updated**: 2025-01-30  
 **Compatibility**: Apple Silicon (M1/M2/M3/M4) + macOS
+
+## Star History
+
+<a href="https://www.star-history.com/#cs2764/mlx-quantization&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cs2764/mlx-quantization&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=cs2764/mlx-quantization&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=cs2764/mlx-quantization&type=Date" />
+ </picture>
+</a>
